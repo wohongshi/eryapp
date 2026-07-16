@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class Game {
   final String name;
   final String icon;
