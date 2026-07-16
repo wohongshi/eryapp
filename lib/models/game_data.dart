@@ -6,7 +6,7 @@ class Game {
   final Color color;
   final List<Version> versions;
 
-  const Game({
+  Game({
     required this.name,
     required this.icon,
     required this.color,
