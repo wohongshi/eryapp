@@ -37,7 +37,7 @@ class Character {
   final String imageUrl;
   final bool isNew;
 
-  const Character({
+  Character({
     required this.name,
     required this.rarity,
     required this.element,
