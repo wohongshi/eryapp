@@ -392,7 +392,7 @@ class _GameDetailScreenState extends State<GameDetailScreen> {
                     width: 52,
                     height: 52,
                     loadingBuilder: (context, child, loadingProgress) {
-                      if (loadingProgress == null) return child;
+                      if (loadingProgress == null) return child!;
                       return Center(
                         child: CircularProgressIndicator(
                           strokeWidth: 2,
