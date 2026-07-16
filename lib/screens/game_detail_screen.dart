@@ -371,7 +371,7 @@ class _GameDetailScreenState extends State<GameDetailScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // 角色头像占位
+          // 角色头像
           Stack(
             alignment: Alignment.center,
             children: [
@@ -380,27 +380,44 @@ class _GameDetailScreenState extends State<GameDetailScreen> {
                 height: 56,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  gradient: LinearGradient(
-                    colors: [
-                      gameColor.withOpacity(0.3),
-                      gameColor.withOpacity(0.1),
-                    ],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                  ),
                   border: Border.all(
                     color: rarityColor.withOpacity(0.5),
                     width: 2,
                   ),
                 ),
-                child: Center(
-                  child: Text(
-                    character.name.substring(0, 1),
-                    style: TextStyle(
-                      fontSize: 22,
-                      fontWeight: FontWeight.bold,
-                      color: gameColor,
-                    ),
+                child: ClipOval(
+                  child: Image.network(
+                    character.avatarUrl,
+                    fit: BoxFit.cover,
+                    width: 52,
+                    height: 52,
+                    loadingBuilder: (context, child, loadingProgress) {
+                      if (loadingProgress == null) return child;
+                      return Center(
+                        child: CircularProgressIndicator(
+                          strokeWidth: 2,
+                          value: loadingProgress.expectedTotalBytes != null
+                              ? loadingProgress.cumulativeBytesLoaded /
+                                  loadingProgress.expectedTotalBytes!
+                              : null,
+                        ),
+                      );
+                    },
+                    errorBuilder: (context, error, stackTrace) {
+                      return Container(
+                        color: gameColor.withOpacity(0.2),
+                        child: Center(
+                          child: Text(
+                            character.name.isNotEmpty ? character.name[0] : '?',
+                            style: TextStyle(
+                              fontSize: 22,
+                              fontWeight: FontWeight.bold,
+                              color: gameColor,
+                            ),
+                          ),
+                        ),
+                      );
+                    },
                   ),
                 ),
               ),

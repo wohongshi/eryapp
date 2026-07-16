@@ -42,4 +42,11 @@ class Character {
     this.imageUrl = '',
     this.isNew = false,
   });
+
+  /// 获取角色头像URL（使用DiceBear API生成）
+  String get avatarUrl {
+    if (imageUrl.isNotEmpty) return imageUrl;
+    // 使用DiceBear API基于角色名生成独特头像
+    return 'https://api.dicebear.com/7.x/notionists/svg?seed=$name&backgroundColor=b6e3f4,c0aede,d1d4f9,ffd5dc,ffdfbf';
+  }
 }
