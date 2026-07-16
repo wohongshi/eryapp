@@ -21,7 +21,7 @@ class Version {
   final String summary;
   final List<Character> characters;
 
-  const Version({
+  Version({
     required this.name,
     required this.date,
     required this.mainQuest,
