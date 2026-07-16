@@ -32,12 +32,12 @@ class GameRepository {
       Version(name: '5.8', date: '2025-07', mainQuest: '空月之歌·序奏「归途」', summary: '纳塔悠悠度假村夏日活动', characters: [Character(name: '梦见月瑞希', rarity: '5', element: '风'), Character(name: '玛拉妮', rarity: '5', element: '水')]),
       Version(name: '5.7', date: '2025-06', mainQuest: '第五章·第六幕「你存在的时空」', summary: '纳塔主线完结，旅人章', characters: [Character(name: '恰斯卡', rarity: '5', element: '风', isNew: true), Character(name: '玛薇卡', rarity: '5', element: '火')]),
       Version(name: '5.6', date: '2025-05', mainQuest: '第五章·第五幕「悖理」', summary: '纳塔主线高潮', characters: [Character(name: '爱可菲', rarity: '5', element: '冰', isNew: true), Character(name: '娜维娅', rarity: '5', element: '岩'), Character(name: '基尼奇', rarity: '5', element: '草'), Character(name: '雷电将军', rarity: '5', element: '雷')]),
-      Version(name: '5.5', date: '2025-04', mainQuest: '第五章·第五幕「炽烈的还魂诗」', summary: '纳塔灵蕈活动', characters: [Character(name: '梦见月瑞希', rarity: '5', element: '风', isNew: true), Character(name: '希诺宁', rarity: '5', element: '岩'), Character(name: '玛薇卡', rarity: '5', element: '火'), Character(name: '恰斯卡', rarity: '5', element: '风', isNew: true)]}),
+      Version(name: '5.5', date: '2025-04', mainQuest: '第五章·第五幕「炽烈的还魂诗」', summary: '纳塔灵蕈活动', characters: [Character(name: '梦见月瑞希', rarity: '5', element: '风', isNew: true), Character(name: '希诺宁', rarity: '5', element: '岩'), Character(name: '玛薇卡', rarity: '5', element: '火'), Character(name: '恰斯卡', rarity: '5', element: '风', isNew: true)]),
       Version(name: '5.4', date: '2025-02', mainQuest: '第五章·第四幕「命定将焚的虹光」', summary: '海灯节，璃月庆典', characters: [Character(name: '玛薇卡', rarity: '5', element: '火', isNew: true), Character(name: '克洛琳德', rarity: '5', element: '雷'), Character(name: '希格雯', rarity: '5', element: '水')]),
       Version(name: '5.3', date: '2025-01', mainQuest: '第五章·第五幕「炽热的还魂诗」', summary: '纳塔主线高潮，火神登场', characters: [Character(name: '玛薇卡', rarity: '5', element: '火', isNew: true), Character(name: '阿蕾奇诺', rarity: '5', element: '火')]),
       Version(name: '5.2', date: '2024-12', mainQuest: '第五章·幕间「万火归一」', summary: '纳塔主线推进', characters: [Character(name: '恰斯卡', rarity: '5', element: '风', isNew: true), Character(name: '希诺宁', rarity: '5', element: '岩'), Character(name: '钟离', rarity: '5', element: '岩')]),
       Version(name: '5.1', date: '2024-10', mainQuest: '第五章·第三幕「镜与谜烟的彼方」', summary: '纳塔主线开始', characters: [Character(name: '希诺宁', rarity: '5', element: '岩', isNew: true), Character(name: '纳西妲', rarity: '5', element: '草'), Character(name: '妮露', rarity: '5', element: '水')]),
-      Version(name: '5.0', date: '2024-08', mainQuest: '第五章·第一幕「荣花与炎日之途」', summary: '纳塔新国家开放', characters: [Character(name: '玛拉妮', rarity: '5', element: '水', isNew: true), Character(name: '基尼奇', rarity: '5', element: '草', isNew: true)]}),
+      Version(name: '5.0', date: '2024-08', mainQuest: '第五章·第一幕「荣花与炎日之途」', summary: '纳塔新国家开放', characters: [Character(name: '玛拉妮', rarity: '5', element: '水', isNew: true), Character(name: '基尼奇', rarity: '5', element: '草', isNew: true)]),
       // ===== 枫丹 =====
       Version(name: '4.8', date: '2024-07', mainQuest: '第四章·第五幕「欢夏！邪龙？童话国！」', summary: '枫丹夏日童话活动', characters: [Character(name: '艾梅莉埃', rarity: '5', element: '草', isNew: true), Character(name: '夜兰', rarity: '5', element: '水'), Character(name: '妮露', rarity: '5', element: '水'), Character(name: '娜维娅', rarity: '5', element: '岩')]),
       Version(name: '4.7', date: '2024-06', mainQuest: '第四章·第四幕「纺坠终久之梦」', summary: '枫丹主线完结', characters: [Character(name: '克洛琳德', rarity: '5', element: '雷', isNew: true), Character(name: '希格雯', rarity: '5', element: '水', isNew: true), Character(name: '芙宁娜', rarity: '5', element: '水'), Character(name: '阿蕾奇诺', rarity: '5', element: '火')]),
@@ -66,16 +66,16 @@ class GameRepository {
       Version(name: '2.4', date: '2022-01', mainQuest: '第二章·第二幕「飞彩镌流年」', summary: '海灯节，渊下宫开放', characters: [Character(name: '申鹤', rarity: '5', element: '冰', isNew: true), Character(name: '魈', rarity: '5', element: '风'), Character(name: '甘雨', rarity: '5', element: '冰'), Character(name: '钟离', rarity: '5', element: '岩')]),
       Version(name: '2.3', date: '2021-11', mainQuest: '第二章·第一幕「皑尘与雪影」', summary: '雪山活动', characters: [Character(name: '荒泷一斗', rarity: '5', element: '岩', isNew: true), Character(name: '阿贝多', rarity: '5', element: '岩'), Character(name: '优菈', rarity: '5', element: '冰')]),
       Version(name: '2.2', date: '2021-10', mainQuest: '第二章·第一幕「雾海悬谜境」', summary: '鹤观岛开放', characters: [Character(name: '胡桃', rarity: '5', element: '火'), Character(name: '公子', rarity: '5', element: '水')]),
-      Version(name: '2.1', date: '2021-09', mainQuest: '第二章·第三幕「千手百眼天下人间」', summary: '稻妻主线完结，逐月节', characters: [Character(name: '雷电将军', rarity: '5', element: '雷', isNew: true), Character(name: '珊瑚宫心海', rarity: '5', element: '水', isNew: true)]}),
-      Version(name: '2.0', date: '2021-07', mainQuest: '第二章·第一幕「不动鸣神泡影断灭」', summary: '稻妻新国家开放', characters: [Character(name: '神里绫华', rarity: '5', element: '冰', isNew: true), Character(name: '枫原万叶', rarity: '5', element: '风', isNew: true), Character(name: '宵宫', rarity: '5', element: '火', isNew: true)]}),
+      Version(name: '2.1', date: '2021-09', mainQuest: '第二章·第三幕「千手百眼天下人间」', summary: '稻妻主线完结，逐月节', characters: [Character(name: '雷电将军', rarity: '5', element: '雷', isNew: true), Character(name: '珊瑚宫心海', rarity: '5', element: '水', isNew: true)]),
+      Version(name: '2.0', date: '2021-07', mainQuest: '第二章·第一幕「不动鸣神泡影断灭」', summary: '稻妻新国家开放', characters: [Character(name: '神里绫华', rarity: '5', element: '冰', isNew: true), Character(name: '枫原万叶', rarity: '5', element: '风', isNew: true), Character(name: '宵宫', rarity: '5', element: '火', isNew: true)]),
       // ===== 蒙德璃月 =====
       Version(name: '1.6', date: '2021-06', mainQuest: '第二章·序幕「振袖秋风问红叶」', summary: '金苹果群岛夏日活动', characters: [Character(name: '枫原万叶', rarity: '5', element: '风', isNew: true), Character(name: '可莉', rarity: '5', element: '火')]),
       Version(name: '1.5', date: '2021-04', mainQuest: '第一章·第四幕「玉扉绕尘歌」', summary: '尘歌壶系统上线', characters: [Character(name: '优菈', rarity: '5', element: '冰', isNew: true), Character(name: '钟离', rarity: '5', element: '岩')]),
       Version(name: '1.4', date: '2021-03', mainQuest: '第一章·第四幕「我们终将重逢」', summary: '蒙德风花节', characters: [Character(name: '温迪', rarity: '5', element: '风'), Character(name: '公子', rarity: '5', element: '水')]),
-      Version(name: '1.3', date: '2021-02', mainQuest: '第一章·第三幕「明霄升海平」', summary: '海灯节，璃月庆典', characters: [Character(name: '魈', rarity: '5', element: '风', isNew: true), Character(name: '刻晴', rarity: '5', element: '雷'), Character(name: '胡桃', rarity: '5', element: '火', isNew: true)]}),
-      Version(name: '1.2', date: '2020-12', mainQuest: '第一章·第二幕「白垩与黑龙」', summary: '龙脊雪山开放', characters: [Character(name: '阿贝多', rarity: '5', element: '岩', isNew: true), Character(name: '甘雨', rarity: '5', element: '冰', isNew: true)]}),
-      Version(name: '1.1', date: '2020-11', mainQuest: '第一章·第三幕「迫近的客星」', summary: '璃月主线完结', characters: [Character(name: '公子', rarity: '5', element: '水', isNew: true), Character(name: '钟离', rarity: '5', element: '岩', isNew: true)]}),
-      Version(name: '1.0', date: '2020-09', mainQuest: '序章「捕风的异乡人」', summary: '游戏公测，蒙德璃月开放', characters: [Character(name: '温迪', rarity: '5', element: '风', isNew: true), Character(name: '可莉', rarity: '5', element: '火', isNew: true)]}),
+      Version(name: '1.3', date: '2021-02', mainQuest: '第一章·第三幕「明霄升海平」', summary: '海灯节，璃月庆典', characters: [Character(name: '魈', rarity: '5', element: '风', isNew: true), Character(name: '刻晴', rarity: '5', element: '雷'), Character(name: '胡桃', rarity: '5', element: '火', isNew: true)]),
+      Version(name: '1.2', date: '2020-12', mainQuest: '第一章·第二幕「白垩与黑龙」', summary: '龙脊雪山开放', characters: [Character(name: '阿贝多', rarity: '5', element: '岩', isNew: true), Character(name: '甘雨', rarity: '5', element: '冰', isNew: true)]),
+      Version(name: '1.1', date: '2020-11', mainQuest: '第一章·第三幕「迫近的客星」', summary: '璃月主线完结', characters: [Character(name: '公子', rarity: '5', element: '水', isNew: true), Character(name: '钟离', rarity: '5', element: '岩', isNew: true)]),
+      Version(name: '1.0', date: '2020-09', mainQuest: '序章「捕风的异乡人」', summary: '游戏公测，蒙德璃月开放', characters: [Character(name: '温迪', rarity: '5', element: '风', isNew: true), Character(name: '可莉', rarity: '5', element: '火', isNew: true)]),
     ],
   );
 
@@ -113,7 +113,7 @@ class GameRepository {
       Version(name: '1.3', date: '2023-10', mainQuest: '第一章「天镜映劫尘」', summary: '仙舟主线开始', characters: [Character(name: '符玄', rarity: '5', element: '量子·存护', isNew: true), Character(name: '丹恒·饮月', rarity: '5', element: '风·毁灭', isNew: true), Character(name: '景元', rarity: '5', element: '雷·智识')]),
       Version(name: '1.2', date: '2023-08', mainQuest: '第一章「仙骸有终」', summary: '贝洛伯格主线推进', characters: [Character(name: '刃', rarity: '5', element: '风·毁灭', isNew: true), Character(name: '卡芙卡', rarity: '5', element: '雷·虚无', isNew: true), Character(name: '银狼', rarity: '5', element: '量子·虚无')]),
       Version(name: '1.1', date: '2023-06', mainQuest: '第一章「银河漫游」', summary: '贝洛伯格主线推进', characters: [Character(name: '银狼', rarity: '5', element: '量子·虚无', isNew: true), Character(name: '罗刹', rarity: '5', element: '虚数·丰饶', isNew: true), Character(name: '景元', rarity: '5', element: '雷·智识')]),
-      Version(name: '1.0', date: '2023-04', mainQuest: '序章「于曈昽的骄阳下」', summary: '游戏公测，贝洛伯格开放', characters: [Character(name: '希儿', rarity: '5', element: '量子·巡猎', isNew: true), Character(name: '景元', rarity: '5', element: '雷·智识', isNew: true)]}),
+      Version(name: '1.0', date: '2023-04', mainQuest: '序章「于曈昽的骄阳下」', summary: '游戏公测，贝洛伯格开放', characters: [Character(name: '希儿', rarity: '5', element: '量子·巡猎', isNew: true), Character(name: '景元', rarity: '5', element: '雷·智识', isNew: true)]),
     ],
   );
 
@@ -136,11 +136,11 @@ class GameRepository {
       Version(name: '1.7', date: '2025-06', mainQuest: '第一章「将眼泪与过往一同埋葬」', summary: '1.x终章', characters: [Character(name: '薇薇安', rarity: 'S', element: '以太·支援', isNew: true), Character(name: '雨果', rarity: 'S', element: '物理·强攻', isNew: true), Character(name: '莱特', rarity: 'S', element: '火·强攻')]),
       Version(name: '1.6', date: '2025-04', mainQuest: '第一章「在被遗忘的废墟之上」', summary: '主线剧情推进', characters: [Character(name: '伊芙琳', rarity: 'S', element: '冰·击破', isNew: true), Character(name: '青衣', rarity: 'S', element: '电·强攻')]),
       Version(name: '1.5', date: '2025-02', mainQuest: '第一章「闪耀的此刻」', summary: '主线剧情推进', characters: [Character(name: '浅羽悠真', rarity: 'S', element: '电·强攻', isNew: true), Character(name: '柳', rarity: 'S', element: '冰·强攻'), Character(name: '珂蕾妲', rarity: 'S', element: '火·支援')]),
-      Version(name: '1.4', date: '2024-12', mainQuest: '第一章「星流霆击」', summary: '主线剧情推进', characters: [Character(name: '月城柳', rarity: 'S', element: '冰·强攻', isNew: true), Character(name: '莱特', rarity: 'S', element: '火·强攻', isNew: true)]}),
-      Version(name: '1.3', date: '2024-11', mainQuest: '第一章「虚拟杀机」', summary: '主线剧情推进', characters: [Character(name: '柳', rarity: 'S', element: '冰·强攻', isNew: true), Character(name: '莱特', rarity: 'S', element: '火·强攻', isNew: true)]}),
-      Version(name: '1.2', date: '2024-09', mainQuest: '第一章「火狱骑行」', summary: '空洞系统开放', characters: [Character(name: '凯撒', rarity: 'S', element: '物理·强攻', isNew: true), Character(name: '柏妮思', rarity: 'S', element: '火·异常', isNew: true)]}),
-      Version(name: '1.1', date: '2024-08', mainQuest: '第一章「卧底蓝调」', summary: '主线剧情推进', characters: [Character(name: '青衣', rarity: 'S', element: '电·强攻', isNew: true), Character(name: '简', rarity: 'S', element: '物理·强攻', isNew: true)]}),
-      Version(name: '1.0', date: '2024-07', mainQuest: '序章「欢迎来到新艾利都」', summary: '游戏公测', characters: [Character(name: '艾莲', rarity: 'S', element: '冰·强攻', isNew: true), Character(name: '朱鸢', rarity: 'S', element: '火·强攻', isNew: true)]}),
+      Version(name: '1.4', date: '2024-12', mainQuest: '第一章「星流霆击」', summary: '主线剧情推进', characters: [Character(name: '月城柳', rarity: 'S', element: '冰·强攻', isNew: true), Character(name: '莱特', rarity: 'S', element: '火·强攻', isNew: true)]),
+      Version(name: '1.3', date: '2024-11', mainQuest: '第一章「虚拟杀机」', summary: '主线剧情推进', characters: [Character(name: '柳', rarity: 'S', element: '冰·强攻', isNew: true), Character(name: '莱特', rarity: 'S', element: '火·强攻', isNew: true)]),
+      Version(name: '1.2', date: '2024-09', mainQuest: '第一章「火狱骑行」', summary: '空洞系统开放', characters: [Character(name: '凯撒', rarity: 'S', element: '物理·强攻', isNew: true), Character(name: '柏妮思', rarity: 'S', element: '火·异常', isNew: true)]),
+      Version(name: '1.1', date: '2024-08', mainQuest: '第一章「卧底蓝调」', summary: '主线剧情推进', characters: [Character(name: '青衣', rarity: 'S', element: '电·强攻', isNew: true), Character(name: '简', rarity: 'S', element: '物理·强攻', isNew: true)]),
+      Version(name: '1.0', date: '2024-07', mainQuest: '序章「欢迎来到新艾利都」', summary: '游戏公测', characters: [Character(name: '艾莲', rarity: 'S', element: '冰·强攻', isNew: true), Character(name: '朱鸢', rarity: 'S', element: '火·强攻', isNew: true)]),
     ],
   );
 
@@ -178,9 +178,9 @@ class GameRepository {
     icon: '🔮',
     color: Color(0xFFE17055),
     versions: [
-      Version(name: '1.2', date: '2026-07', mainQuest: '红字篇·终幕「九百九十九夜」', summary: '桌游RPG奇幻模式上线', characters: [Character(name: '真红', rarity: 'S', element: '光·强攻', isNew: true), Character(name: '伊洛伊', rarity: 'S', element: '灵·支援', isNew: true)]}),
-      Version(name: '1.1', date: '2026-05', mainQuest: '红字篇·中章「游梦洄廊」', summary: '游乐园地图开放，船只载具上线', characters: [Character(name: '安魂曲', rarity: 'S', element: '暗·进攻', isNew: true), Character(name: '卡厄斯', rarity: 'S', element: '相·进攻', isNew: true)]}),
-      Version(name: '1.0', date: '2026-04', mainQuest: '红字篇·序章「启程」', summary: '游戏公测，21位S级角色', characters: [Character(name: '娜娜莉', rarity: 'S', element: '灵·强攻', isNew: true), Character(name: '浔', rarity: 'S', element: '光·支援', isNew: true)]}),
+      Version(name: '1.2', date: '2026-07', mainQuest: '红字篇·终幕「九百九十九夜」', summary: '桌游RPG奇幻模式上线', characters: [Character(name: '真红', rarity: 'S', element: '光·强攻', isNew: true), Character(name: '伊洛伊', rarity: 'S', element: '灵·支援', isNew: true)]),
+      Version(name: '1.1', date: '2026-05', mainQuest: '红字篇·中章「游梦洄廊」', summary: '游乐园地图开放，船只载具上线', characters: [Character(name: '安魂曲', rarity: 'S', element: '暗·进攻', isNew: true), Character(name: '卡厄斯', rarity: 'S', element: '相·进攻', isNew: true)]),
+      Version(name: '1.0', date: '2026-04', mainQuest: '红字篇·序章「启程」', summary: '游戏公测，21位S级角色', characters: [Character(name: '娜娜莉', rarity: 'S', element: '灵·强攻', isNew: true), Character(name: '浔', rarity: 'S', element: '光·支援', isNew: true)]),
     ],
   );
 
@@ -190,8 +190,8 @@ class GameRepository {
     icon: '🛡️',
     color: Color(0xFF636E72),
     versions: [
-      Version(name: '1.4', date: '2026-07', mainQuest: '第二章·第七阶段「曙光不灭」', summary: '半周年庆，新区域北观禁土', characters: [Character(name: '诀', rarity: '6', element: '近卫', isNew: true), Character(name: '梨诺', rarity: '6', element: '术师', isNew: true)]}),
-      Version(name: '1.3', date: '2026-05', mainQuest: '第二章·第五阶段「藏剑谷」', summary: '危机合约上线，新区域藏剑谷', characters: [Character(name: '弭弗', rarity: '6', element: '近卫', isNew: true), Character(name: '卡缪', rarity: '6', element: '狙击', isNew: true)]}),
+      Version(name: '1.4', date: '2026-07', mainQuest: '第二章·第七阶段「曙光不灭」', summary: '半周年庆，新区域北观禁土', characters: [Character(name: '诀', rarity: '6', element: '近卫', isNew: true), Character(name: '梨诺', rarity: '6', element: '术师', isNew: true)]),
+      Version(name: '1.3', date: '2026-05', mainQuest: '第二章·第五阶段「藏剑谷」', summary: '危机合约上线，新区域藏剑谷', characters: [Character(name: '弭弗', rarity: '6', element: '近卫', isNew: true), Character(name: '卡缪', rarity: '6', element: '狙击', isNew: true)]),
       Version(name: '1.2', date: '2026-04', mainQuest: '第二章·第三阶段「春晓时」', summary: '新章节开放', characters: [Character(name: '庄方宜', rarity: '6', element: '术师', isNew: true), Character(name: '逻各斯', rarity: '6', element: '术师'), Character(name: '阿', rarity: '6', element: '近卫')]),
       Version(name: '1.1', date: '2026-03', mainQuest: '第二章·第一阶段「长夜终明」', summary: '新章节开放', characters: [Character(name: '逻各斯', rarity: '6', element: '术师', isNew: true), Character(name: '阿', rarity: '6', element: '近卫', isNew: true), Character(name: '艾雅法拉', rarity: '6', element: '术师'), Character(name: '陈', rarity: '6', element: '近卫')]),
       Version(name: '1.0', date: '2026-01', mainQuest: '序章「硬启动」·第一章「碎裂大地」', summary: '游戏公测', characters: [Character(name: '莱万汀', rarity: '6', element: '近卫', isNew: true), Character(name: '菲亚梅塔', rarity: '6', element: '术师', isNew: true), Character(name: '闪灵', rarity: '6', element: '医疗', isNew: true), Character(name: '能天使', rarity: '6', element: '狙击'), Character(name: '银灰', rarity: '6', element: '近卫'), Character(name: '塞雷娅', rarity: '6', element: '重装')]),
