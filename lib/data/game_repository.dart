@@ -14,7 +14,7 @@ class GameRepository {
   }
 
   // ===== 原神（1.0 ~ 月之八）=====
-  static const _genshinImpact = Game(
+  static final _genshinImpact = Game(
     name: '原神',
     icon: '⚡',
     color: Color(0xFF4A90D9),
@@ -80,7 +80,7 @@ class GameRepository {
   );
 
   // ===== 崩坏：星穹铁道（1.0 ~ 4.4）=====
-  static const _honkaiStarRail = Game(
+  static final _honkaiStarRail = Game(
     name: '崩坏：星穹铁道',
     icon: '⭐',
     color: Color(0xFF6C5CE7),
@@ -118,7 +118,7 @@ class GameRepository {
   );
 
   // ===== 绝区零（1.0 ~ 3.0）=====
-  static const _zenlessZoneZero = Game(
+  static final _zenlessZoneZero = Game(
     name: '绝区零',
     icon: '🎯',
     color: Color(0xFF00B894),
@@ -145,7 +145,7 @@ class GameRepository {
   );
 
   // ===== 鸣潮（1.0 ~ 3.5）=====
-  static const _wutheringWaves = Game(
+  static final _wutheringWaves = Game(
     name: '鸣潮',
     icon: '🌊',
     color: Color(0xFF0984E3),
@@ -173,7 +173,7 @@ class GameRepository {
   );
 
   // ===== 异环（1.0 ~ 1.2）=====
-  static const _arteryGear = Game(
+  static final _arteryGear = Game(
     name: '异环',
     icon: '🔮',
     color: Color(0xFFE17055),
@@ -185,7 +185,7 @@ class GameRepository {
   );
 
   // ===== 明日方舟：终末地（1.0 ~ 1.4）=====
-  static const _arknightsEndfield = Game(
+  static final _arknightsEndfield = Game(
     name: '明日方舟：终末地',
     icon: '🛡️',
     color: Color(0xFF636E72),
