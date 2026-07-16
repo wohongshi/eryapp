@@ -151,19 +151,34 @@ class GameRepository {
     ],
   );
 
-  // ===== 鸣潮（1.1 ~ 3.0）=====
+  // ===== 鸣潮（1.0 ~ 3.5）=====
   static const _wutheringWaves = Game(
     name: '鸣潮',
     icon: '🌊',
     color: Color(0xFF0984E3),
     versions: [
+      // ===== 3.x =====
+      Version(name: '3.5「秧秧·玄翎」', date: '2026-07', mainQuest: '梦州篇', summary: '新地图梦州开放，秧秧SP登场', characters: [Character(name: '秧秧·玄翎', rarity: '5', element: '导电', isNew: true), Character(name: '琳奈', rarity: '5', element: '冷凝'), Character(name: '陆赫斯', rarity: '5', element: '热熔')]),
+      Version(name: '3.4「未选择的梦」', date: '2026-06', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '弗洛洛', rarity: '5', element: '气动', isNew: true), Character(name: '露帕', rarity: '5', element: '热熔')]),
+      Version(name: '3.3「自星海尽处回响」', date: '2026-04', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '洛可可', rarity: '5', element: '衍射', isNew: true), Character(name: '千咲', rarity: '5', element: '冷凝')]),
+      Version(name: '3.2「于影中启」', date: '2026-03', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '嘉贝莉娜', rarity: '5', element: '热熔', isNew: true), Character(name: '夏空', rarity: '5', element: '导电')]),
+      Version(name: '3.1「爱弥斯」', date: '2026-01', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '爱弥斯', rarity: '5', element: '冷凝', isNew: true), Character(name: '陆赫斯', rarity: '5', element: '热熔', isNew: true), Character(name: '千咲', rarity: '5', element: '冷凝'), Character(name: '露帕', rarity: '5', element: '热熔'), Character(name: '嘉贝莉娜', rarity: '5', element: '热熔')]),
       Version(name: '3.0「我们生而眺望」', date: '2025-12', mainQuest: '拉海洛篇', summary: '新区域拉海洛开放', characters: [Character(name: '琳奈', rarity: '5', element: '冷凝', isNew: true), Character(name: '莫宁', rarity: '5', element: '热熔', isNew: true), Character(name: '卡提希娅', rarity: '5', element: '气动'), Character(name: '夏空', rarity: '5', element: '导电')]),
-      Version(name: '2.8「拂晓之刻」', date: '2025-10', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '守岸人', rarity: '5', element: '衍射', isNew: true), Character(name: '相里要', rarity: '5', element: '冷凝'), Character(name: '今汐', rarity: '5', element: '气动')]),
-      Version(name: '2.7「破晓之章」', date: '2025-08', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '折枝', rarity: '5', element: '冷凝', isNew: true), Character(name: '吟霖', rarity: '5', element: '导电'), Character(name: '忌炎', rarity: '5', element: '气动')]),
-      Version(name: '2.6「燃火之途」', date: '2025-06', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '炽霞', rarity: '5', element: '热熔', isNew: true), Character(name: '漂泊者', rarity: '5', element: '衍射'), Character(name: '丹瑾', rarity: '5', element: '冷凝')]),
-      Version(name: '2.5「鸣潮之始」', date: '2025-04', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '椿', rarity: '5', element: '气动', isNew: true), Character(name: '安可', rarity: '5', element: '热熔'), Character(name: '凌阳', rarity: '5', element: '冷凝')]),
-      Version(name: '1.2「万象新声」', date: '2024-08', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '相里要', rarity: '5', element: '冷凝', isNew: true), Character(name: '吟霖', rarity: '5', element: '导电', isNew: true), Character(name: '忌炎', rarity: '5', element: '气动')]),
-      Version(name: '1.1「初鸣」', date: '2024-06', mainQuest: '序章', summary: '游戏公测', characters: [Character(name: '今汐', rarity: '5', element: '气动', isNew: true), Character(name: '长离', rarity: '5', element: '热熔', isNew: true), Character(name: '漂泊者', rarity: '5', element: '衍射', isNew: true)]}),
+      // ===== 2.x =====
+      Version(name: '2.6「月以流明」', date: '2025-08', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '守岸人', rarity: '5', element: '衍射'), Character(name: '椿', rarity: '5', element: '气动'), Character(name: '弗洛洛', rarity: '5', element: '气动', isNew: true)]),
+      Version(name: '2.5「生命不灭的轻歌」', date: '2025-07', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '折枝', rarity: '5', element: '冷凝'), Character(name: '相里要', rarity: '5', element: '冷凝'), Character(name: '弗洛洛', rarity: '5', element: '气动', isNew: true)]),
+      Version(name: '2.4「轻掷欢呼之案」', date: '2025-06', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '卡提希娅', rarity: '5', element: '气动', isNew: true), Character(name: '露帕', rarity: '5', element: '热熔', isNew: true)]),
+      Version(name: '2.3「焰行夏曲庆团圆」', date: '2025-04', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '赞妮', rarity: '5', element: '热熔', isNew: true), Character(name: '菲比', rarity: '5', element: '衍射', isNew: true), Character(name: '夏空', rarity: '5', element: '导电', isNew: true), Character(name: '今汐', rarity: '5', element: '气动'), Character(name: '长离', rarity: '5', element: '热熔')]),
+      Version(name: '2.2「真伪倒悬于高塔」', date: '2025-03', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '珂莱塔', rarity: '5', element: '导电', isNew: true), Character(name: '守岸人', rarity: '5', element: '衍射')]),
+      Version(name: '2.1「飞鸟轻鸣，浪涛欢唱」', date: '2025-02', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '菲比', rarity: '5', element: '衍射', isNew: true), Character(name: '赞妮', rarity: '5', element: '热熔', isNew: true)]),
+      Version(name: '2.0「致缄默以欢歌」', date: '2025-01', mainQuest: '2.0新篇章', summary: '2.0大版本更新', characters: [Character(name: '洛可可', rarity: '5', element: '衍射', isNew: true), Character(name: '今汐', rarity: '5', element: '气动')]),
+      // ===== 1.x =====
+      Version(name: '1.5「暗夜叩响白昼之门」', date: '2024-12', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '椿', rarity: '5', element: '气动'), Character(name: '吟霖', rarity: '5', element: '导电'), Character(name: '相里要', rarity: '5', element: '冷凝')]),
+      Version(name: '1.4「行至海岸尽头」', date: '2024-11', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '椿', rarity: '5', element: '气动', isNew: true), Character(name: '吟霖', rarity: '5', element: '导电'), Character(name: '相里要', rarity: '5', element: '冷凝')]),
+      Version(name: '1.3「天上月华人如愿」', date: '2024-09', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '守岸人', rarity: '5', element: '衍射', isNew: true), Character(name: '忌炎', rarity: '5', element: '气动')]),
+      Version(name: '1.2「天上月华人如愿」', date: '2024-08', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '折枝', rarity: '5', element: '冷凝', isNew: true), Character(name: '相里要', rarity: '5', element: '冷凝', isNew: true)]),
+      Version(name: '1.1「往岁乘霄醒惊蛰」', date: '2024-06', mainQuest: '主线推进', summary: '主线剧情推进', characters: [Character(name: '今汐', rarity: '5', element: '气动', isNew: true), Character(name: '长离', rarity: '5', element: '热熔', isNew: true)]),
+      Version(name: '1.0「鸣潮往复」', date: '2024-05', mainQuest: '序章', summary: '游戏公测', characters: [Character(name: '忌炎', rarity: '5', element: '气动', isNew: true), Character(name: '吟霖', rarity: '5', element: '导电', isNew: true)]),
     ],
   );
 
